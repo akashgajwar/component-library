@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root {
-    --primary-colour: #818CF8;
+    --primary-colour: #3B82F6;
     --sec-colour-: #6B7280;
 
      --ow-colour-: #F3F4F6;
@@ -16,6 +16,7 @@ hr{
 
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0rem;
 }
 
 /* @container */
@@ -106,6 +107,7 @@ body{
 .hero .hero-heading{
     padding: 1rem;
     color: var(--sec-colour-);
+    text-align: center;
 
 }
 
@@ -121,4 +123,22 @@ body{
 
 .ow{
     background-color: var(--ow-colour-);
+}
+
+
+/* @footer */
+
+.footer{
+    background-color: var(--primary-colour);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white; 
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0rem;
 }
