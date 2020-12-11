@@ -3,8 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root {
-    --primary-colour: #6366F1;
-    
+    --primary-colour: #818CF8;
+    --sec-colour-: #6B7280;
+
+     --ow-colour-: #F3F4F6;
 }
 
 hr{
@@ -86,3 +88,37 @@ body{
 
 }
 
+/*@HEADER  */
+
+.hero{
+    padding: 2rem;
+    
+    
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+.hero .hero-heading{
+    padding: 1rem;
+    color: var(--sec-colour-);
+
+}
+
+/* @section */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align:  center;
+}
+
+.ow{
+    background-color: var(--ow-colour-);
+}
