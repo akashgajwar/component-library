@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+:root {
+    --primary-colour: #6366F1;
+    
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
 
 body{
     font-family: 'Lato', sans-serif;
@@ -19,4 +28,61 @@ body{
     margin: auto;
 }
 
+/* @links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-colour);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-colour);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-colour);
+}
+
+/* @LISTS */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: orem 0.5rem;
+}
+
+/* @navigation */
+
+.navigation{
+    background-color: var(--primary-colour);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-active{
+    font-size: bold;
+
+}
 
