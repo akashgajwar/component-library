@@ -19,6 +19,7 @@ body{
     margin: 0rem;
 }
 
+
 /* @container */
 
 .container {
@@ -93,6 +94,7 @@ body{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
     
     
 }
